@@ -1,0 +1,18 @@
+{
+  "00c9dc57-6dd0-41c4-8eac-a70ee8174cdb": {
+    "url": "http://localhost:8080/api/jivelinks/v1/tiles/1023/data",
+    "config": {
+      "ticketID": "E7285589845AF7C49419311D01FDCDE9D00467AC",
+      "data": {},
+      "parent": "http://localhost:8080/api/core/v3/places/1002"
+    },
+    "name": "Webhooks",
+    "accessToken": "a7rxnz2zrzc4ykzl08pov9c3jzskeqjqx2v69kkd.t",
+    "expiresIn": "172799",
+    "refreshToken": "b3lb88bf4h6xobojj764cp5ipt7m33tmxezse609.r",
+    "scope": "uri:/api/jivelinks/v1/tiles/1023",
+    "guid": "75bbf5d6-26ef-417d-bdde-33deeedf14ba-dev_1023",
+    "jiveCommunity": "localhost:8080",
+    "id": "00c9dc57-6dd0-41c4-8eac-a70ee8174cdb"
+  }
+}

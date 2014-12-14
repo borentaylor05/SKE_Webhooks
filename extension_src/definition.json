@@ -1,0 +1,49 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "sampleData": {
+                "title": "Watch this place!",
+                "contents": [
+                    {
+                        "text": "--"
+                    }
+                ],
+                "config": {
+                    "listStyle": "contentList"
+                }
+            },
+            "displayName": "Watch this place!",
+            "name": "Webhooks",
+            "description": "Watch a place with a webhook.",
+            "style": "LIST",
+            "icons": {
+                "16": "http://ctflyfishing.com/wp-content/uploads/2011/11/set-fishing-hook1.jpg",
+                "48": "http://ctflyfishing.com/wp-content/uploads/2011/11/set-fishing-hook1.jpg",
+                "128": "http://ctflyfishing.com/wp-content/uploads/2011/11/set-fishing-hook1.jpg"
+            },
+            "id": "a74a1515-3740-447b-8ac4-f6d4d18ba127",
+            "definitionDirName": "webhooks",
+            "published": "2013-02-28T15:12:16.768-0800",
+            "updated": "2013-02-28T15:12:16.768-0800",
+            "config": "http://localhost:8090/webhooks/configure",
+            "unregister": "http://localhost:8090/unregister",
+            "register": "http://localhost:8090/registration"
+        }
+    ],
+    "templates": [
+        {
+            "name": "defaultTemplate",
+            "displayName": "Contains: [Webhooks] ",
+            "description": "Extension UUID ca6dce31-7bd2-4490-9241-6a4d059eca37 Contains: [Webhooks] ",
+            "tiles": [
+                "Webhooks"
+            ]
+        }
+    ],
+    "osapps": [],
+    "storageDefinitions": [],
+    "jabCartridges": []
+}

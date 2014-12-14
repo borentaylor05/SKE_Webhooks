@@ -1,0 +1,16 @@
+{
+    "package_version": "1.0",
+    "id": "ca6dce31-7bd2-4490-9241-6a4d059eca37",
+    "type": "client-app",
+    "name": "Add-on containing tiles(s)",
+    "description": "Tiles: [Webhooks]",
+    "minimum_version": "0000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "released_on": "2013-03-08T19:11:11.234Z",
+    "register_url": "%serviceURL%/jive/oauth/register",
+    "unregister_url": "%serviceURL%/jive/oauth/unregister",
+    "service_url": "http://localhost:8090",
+    "redirect_url": "%serviceURL%"
+}
