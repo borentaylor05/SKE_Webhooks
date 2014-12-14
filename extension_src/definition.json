@@ -28,9 +28,9 @@
             "definitionDirName": "webhooks",
             "published": "2013-02-28T15:12:16.768-0800",
             "updated": "2013-02-28T15:12:16.768-0800",
-            "config": "http://localhost:8090/webhooks/configure",
-            "unregister": "http://localhost:8090/unregister",
-            "register": "http://localhost:8090/registration"
+            "config": "https://calm-mountain-7302.herokuapp.com/webhooks/configure",
+            "unregister": "https://calm-mountain-7302.herokuapp.com/unregister",
+            "register": "https://calm-mountain-7302.herokuapp.com/registration"
         }
     ],
     "templates": [
