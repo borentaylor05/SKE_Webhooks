@@ -21,7 +21,7 @@ var onLoadCallback = function( config, identifiers ) {
     };
 };
 
-function doIt( host ) {
+function trb( host ) {
 
     var oauth2SuccessCallback = function(ticketID) {
         // do configuration
