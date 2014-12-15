@@ -70,6 +70,7 @@ if (!gadgets.oauth || !gadgets.oauth.Popup) {
                 'noCache': true
             }).execute(function (response) {
                 if (response.status >= 400 && response.status <= 599) {
+                    console.log(response);
                     jiveAuthorizeUrlErrorCallback(response);
                     return;
                 }
