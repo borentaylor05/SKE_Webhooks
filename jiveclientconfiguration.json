@@ -1,7 +1,8 @@
 {
     "clientUrl": "https://calm-mountain-7302.herokuapp.com",
+    "port":"8090",
     "development": true,
     "oauth2-webhooks": {
-        "clientOAuth2CallbackUrl": "/oauth/oauth2Callback"
+        "clientOAuth2CallbackUrl": "https://calm-mountain-7302.herokuapp.com:8090/oauth/oauth2Callback"
     }
 }
