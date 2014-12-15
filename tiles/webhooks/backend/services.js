@@ -22,7 +22,7 @@ exports.eventHandlers = [
     {
         'event': jive.constants.globalEventNames.NEW_INSTANCE,
         'handler' : function(theInstance){
-            var webhookCallback = jive.service.serviceURL() + '/webhooks';
+            var webhookCallback = 'https://lit-inlet-2632.herokuapp.com/webhooks';
             var jiveCommunity = theInstance['jiveCommunity'];
 
             var ticketID = theInstance['config']['ticketID'];
