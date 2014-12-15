@@ -37,7 +37,7 @@ var failServer = function(reason) {
 
 var startServer = function () {
     if ( !jive.service.role || jive.service.role.isHttp() ) {
-        var server = http.createServer(app).listen( 8090, app.get('hostname') || undefined, function () {
+        var server = http.createServer(app).listen( app.get('port') || 8090, app.get('hostname') || undefined, function () {
             console.log("Express server listening on " + server.address().address +':'+server.address().port);
         });
     }
