@@ -2,6 +2,6 @@
     "clientUrl": "https://calm-mountain-7302.herokuapp.com",
     "development": true,
     "oauth2-webhooks": {
-        "clientOAuth2CallbackUrl": "https://calm-mountain-7302.herokuapp.com/oauth/oauth2Callback"
+        "clientOAuth2CallbackUrl": "/oauth/oauth2Callback"
     }
 }
