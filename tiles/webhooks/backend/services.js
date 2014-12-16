@@ -22,7 +22,7 @@ exports.eventHandlers = [
     {
         'event': jive.constants.globalEventNames.NEW_INSTANCE,
         'handler' : function(theInstance){
-            var webhookCallback = 'https://calm-mountain-7302.herokuapp.com//webhooks';
+            var webhookCallback = 'https://calm-mountain-7302.herokuapp.com/webhooks';
             var jiveCommunity = theInstance['jiveCommunity'];
 
             var ticketID = theInstance['config']['ticketID'];
